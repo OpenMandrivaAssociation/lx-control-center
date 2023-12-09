@@ -1,0 +1,13 @@
+--- a/LXControlCenter/runner.py
++++ b/LXControlCenter/runner.py
+@@ -71,8 +71,8 @@
+                 frontend = 'GTK3'
+         elif (frontend_setting == "Auto" or frontend_setting == None):
+             current_desktop = os.getenv("XDG_CURRENT_DESKTOP")
+-            gtk2_list = ['LXDE']
+-            gtk3_list = ['GNOME']
++            gtk2_list = []
++            gtk3_list = ['GNOME','LXDE']
+             qt5_list = ['KDE', 'LXQt']
+             if (current_desktop in gtk2_list):
+                 frontend = 'GTK2'
