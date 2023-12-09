@@ -17,6 +17,7 @@ Url:		http://lxde.sourceforge.net/
 Source0:	https://github.com/lxde/%{name}/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 Patch0:		lx-control-center-switch_lxde_to_gtk3.patch
 BuildRequires:	desktop-file-utils
+BuildRequires:	intltool
 BuildRequires:	python%{pyver}dist(pygobject)
 BuildRequires:	python%{pyver}dist(python-distutils-extra)
 BuildRequires:	python%{pyver}dist(setuptools)
