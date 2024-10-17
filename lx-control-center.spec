@@ -12,7 +12,7 @@ Version:	0.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
-Url:		http://lxde.sourceforge.net/
+Url:		https://lxde.sourceforge.net/
 #Source0:	http://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.xz
 Source0:	https://github.com/lxde/%{name}/archive/%{?snapshot:%{commit}}%{!?snapshot:%{version}}/%{name}-%{?snapshot:%{commit}}%{!?snapshot:%{version}}.tar.gz
 Patch0:		lx-control-center-switch_lxde_to_gtk3.patch
