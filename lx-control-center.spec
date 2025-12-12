@@ -9,7 +9,7 @@
 Summary:	A lightweight utility to display and launch system utilies
 Name:		lx-control-center
 Version:	0.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		https://lxde.sourceforge.net/
