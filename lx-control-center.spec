@@ -9,7 +9,7 @@
 Summary:	A lightweight utility to display and launch system utilies
 Name:		lx-control-center
 Version:	0.0
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		https://lxde.sourceforge.net/
@@ -32,8 +32,8 @@ programs.
 
 %files
 %{_bindir}/%{name}
-%{python3_sitelib}/LXControlCenter
-%{python3_sitelib}/lx_control_center-*.*-info/
+%{python_sitelib}/LXControlCenter
+%{python_sitelib}/lx_control_center-*.*-info/
 #{_datadir}/applications/*.desktop
 %{_mandir}/man1/%{name}.1.*
 
